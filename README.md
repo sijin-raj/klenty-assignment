@@ -1,1 +1,6 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+Nextjs + Tailwindcss
+
+# Klenty Task
+
+## npm install
+## npm run dev
