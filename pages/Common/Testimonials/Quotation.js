@@ -16,15 +16,15 @@ const Quotation = ({ datas, handlePrev, handleNext }) => {
         <div className="flex flex-col-reverse lg:flex-row   "> 
           <div className="w-full ">
             <Image src={qouteImg} alt="qoute" width={80} />
-            <p className="mt-6 text-black text-lg font-extrabold ">
+            {/* <p className="mt-6 text-black text-lg font-extrabold ">
               {datas.qoutes}
-            </p>
+            </p> */}
             <div className="flex mt-6">
               <Image src={Bio} alt="qoute" className="w-10 " />
             </div>
           </div>
           <div className="w-4/5">
-            <Image src={datas.image} alt="profile" className="w-24 " />
+            {/* <Image src={datas.image} alt="profile" className="w-24 " /> */}
           </div>
         </div>
 
