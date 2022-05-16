@@ -1,8 +1,8 @@
 import React from "react";
-import qoute from "../../Assets/Images/qoutes.png";
+import qouteImg from "../../Assets/Images/qoutes.png";
 import Image from "next/image";
 import Bio from "../../Assets/Images/bio-1.png";
-const Quotation = ({ data, handlePrev, handleNext }) => {
+const Quotation = ({ datas, handlePrev, handleNext }) => {
   return (
     <>
       {/* What our customers have to say section */}
@@ -15,16 +15,16 @@ const Quotation = ({ data, handlePrev, handleNext }) => {
         </div>
         <div className="flex flex-col-reverse lg:flex-row   "> 
           <div className="w-full ">
-            <Image src={qoute} alt="qoute" width={20} />
-            <div className="mt-6 text-black text-lg font-extrabold ">
-              {data.qoute}
-            </div>
+            <Image src={qouteImg} alt="qoute" width={80} />
+            <p className="mt-6 text-black text-lg font-extrabold ">
+              {datas.qoutes}
+            </p>
             <div className="flex mt-6">
               <Image src={Bio} alt="qoute" className="w-10 " />
             </div>
           </div>
           <div className="w-4/5">
-            <Image src={data.image} alt="profile" className="w-24 " />
+            <Image src={datas.image} alt="profile" className="w-24 " />
           </div>
         </div>
 

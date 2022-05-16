@@ -9,12 +9,12 @@ const Testimonials = () => {
     {
       id:1,
       image:Adam,
-      qoute:'From someone who is relatively new to sales and lead generating, Klenty was a highly effective and simple-to-use tool that allowed me to quickly generate leads in a genuine and customisable manner'
+      qoutes:"From someone who is relatively new to sales and lead generating, Klenty was a highly effective and simple-to-use tool that allowed me to quickly generate leads in a genuine and customisable manner"
   },
   {
       id:2,
       image:Sam,
-      qoute:'It changed our business. Klenty allowed our outbounds sales team to leverage their time and skills '
+      qoutes:"It changed our business. Klenty allowed our outbounds sales team to leverage their time and skills ",
 
   }
   ];
@@ -35,7 +35,7 @@ const Testimonials = () => {
     <div className="flex flex-col  max-w-xs gap-10 mx-auto w-90w lg:flex-row lg:max-w-4xl lg:gap-0 lg:items-center">
      
       <Quotation 
-        data={dataArr[currentIndex]} 
+        datas={dataArr[currentIndex]} 
         handleNext={handleNext}
         handlePrev={handlePrev}
       />
